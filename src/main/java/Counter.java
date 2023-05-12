@@ -4,23 +4,23 @@ public class Counter {
 
 	private int count;
 	
-	public Counter() {
+	public Counters() {
 		this.reset();
 	}
 		
-	public void reset() {
+	public void resets() {
 		count = 0;
 	}
 	
-	public void increment() {
+	public void increments() {
 		count++;
 	}
 	
-	public void decrement() {
+	public void decrements() {
 		count--;
 	}
 	
-	public int getCount() {
+	public int getCounts() {
 		return count;
 	}
 	
